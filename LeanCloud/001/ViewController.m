@@ -94,10 +94,69 @@
         de.str = @"ShanXi_1";
     }else if ([string isEqualToString:@"陕西"]){
         de.str = @"ShanXi_3";
-    }else{
+    }else if ([string isEqualToString:@"香港"]){
+        de.str = @"Xianggang_List";
+    }else if ([string isEqualToString:@"澳门"]){
+        de.str = @"Aomen_List";
+    }else if ([string isEqualToString:@"台湾"]){
+        de.str = @"Taiwan_List";
+    }else if ([string isEqualToString:@"吉林"]){
+        de.str = @"Jilin_List";
+    }else if ([string isEqualToString:@"内蒙古"]){
+        de.str = @"Neimenggu_List";
+    }else if ([string isEqualToString:@"辽宁"]){
+        de.str = @"Liaoning_List";
+    }else if ([string isEqualToString:@"黑龙江"]){
+        de.str = @"Heilongjiang_List";
+    }else if ([string isEqualToString:@"上海"]){
+        de.str = @"Shanghai_List";
+    }else if ([string isEqualToString:@"江苏"]){
+        de.str = @"Jiangsu_List";
+    }else if ([string isEqualToString:@"浙江"]){
+        de.str = @"Zhejiang_List";
+    }else if ([string isEqualToString:@"安徽"]){
+        de.str = @"Anhui_List";
+    }else if ([string isEqualToString:@"福建"]){
+        de.str = @"Fujian_List";
+    }else if ([string isEqualToString:@"江西"]){
+        de.str = @"Jiangxi_List";
+    }else if ([string isEqualToString:@"山东"]){
+        de.str = @"Shandong_List";
+    }else if ([string isEqualToString:@"湖南"]){
+        de.str = @"Hunan_List";
+    }else if ([string isEqualToString:@"湖北"]){
+        de.str = @"Hubei_List";
+    }else if ([string isEqualToString:@"广东"]){
+        de.str = @"Guangdong_List";
+    }else if ([string isEqualToString:@"广西"]){
+        de.str = @"Guangxi_List";
+    }else if ([string isEqualToString:@"海南"]){
+        de.str = @"Hainan_List";
+    }else if ([string isEqualToString:@"重庆"]){
+        de.str = @"Chongqing_List";
+    }else if ([string isEqualToString:@"四川"]){
+        de.str = @"Sichuan_List";
+    }else if ([string isEqualToString:@"贵州"]){
+        de.str = @"Guizhou_List";
+    }else if ([string isEqualToString:@"云南"]){
+        de.str = @"Yunnan_List";
+    }else if ([string isEqualToString:@"西藏"]){
+        de.str = @"Xizang_List";
+    }else if ([string isEqualToString:@"甘肃"]){
+        de.str = @"Gansu_List";
+    }else if ([string isEqualToString:@"青海"]){
+        de.str = @"Qinghai_List";
+    }else if ([string isEqualToString:@"宁夏"]){
+        de.str = @"Ningxia_List";
+    }else if ([string isEqualToString:@"新疆"]){
+        de.str = @"Xinjiang_List";
+    }
+    
+    
+    
+    else{
         
     }
-
     [self presentViewController:de animated:YES completion:nil];
     
 }

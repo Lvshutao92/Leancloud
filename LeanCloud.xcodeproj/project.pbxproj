@@ -797,7 +797,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N95V3EZZEM;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "/Users/lvshutao/Desktop/未命名文件夹/LeanCloud/LeanCloud/Manager/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/lvshutao/Documents/LeanCloud/LeanCloud/Manager/PrefixHeader.pch;
 				INFOPLIST_FILE = LeanCloud/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -818,7 +818,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N95V3EZZEM;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "/Users/lvshutao/Desktop/未命名文件夹/LeanCloud/LeanCloud/Manager/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/lvshutao/Documents/LeanCloud/LeanCloud/Manager/PrefixHeader.pch;
 				INFOPLIST_FILE = LeanCloud/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
