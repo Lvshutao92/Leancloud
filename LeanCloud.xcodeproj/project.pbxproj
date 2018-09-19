@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0821C573214A62FA0050A516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821C572214A62FA0050A516 /* AppDelegate.m */; };
+		0821C576214A62FA0050A516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821C575214A62FA0050A516 /* ViewController.m */; };
+		0821C579214A62FA0050A516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0821C577214A62FA0050A516 /* Main.storyboard */; };
+		0821C57B214A63060050A516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0821C57A214A63060050A516 /* Assets.xcassets */; };
+		0821C57E214A63060050A516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0821C57C214A63060050A516 /* LaunchScreen.storyboard */; };
+		0821C581214A63060050A516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821C580214A63060050A516 /* main.m */; };
+		0821C58B214A63060050A516 /* LeanCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821C58A214A63060050A516 /* LeanCloudTests.m */; };
+		0821C596214A63060050A516 /* LeanCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821C595214A63060050A516 /* LeanCloudUITests.m */; };
+		0867819C214B3E4F00301E87 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867819B214B3E4F00301E87 /* Manager.m */; };
+		08EEEE73214F3B92004CC567 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE71214F3B92004CC567 /* TableViewCell.m */; };
+		08EEEE74214F3B92004CC567 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEE72214F3B92004CC567 /* TableViewCell.xib */; };
+		08EEEE87214F40C3004CC567 /* home1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEE76214F40C3004CC567 /* home1.jpeg */; };
+		08EEEE88214F40C3004CC567 /* home2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEE77214F40C3004CC567 /* home2.jpeg */; };
+		08EEEE89214F40C3004CC567 /* home3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEE78214F40C3004CC567 /* home3.jpeg */; };
+		08EEEE8A214F40C3004CC567 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE7A214F40C3004CC567 /* SDCollectionViewCell.m */; };
+		08EEEE8B214F40C3004CC567 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE7C214F40C3004CC567 /* SDCycleScrollView.m */; };
+		08EEEE8C214F40C3004CC567 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE7E214F40C3004CC567 /* TAAbstractDotView.m */; };
+		08EEEE8D214F40C3004CC567 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE80214F40C3004CC567 /* TAAnimatedDotView.m */; };
+		08EEEE8E214F40C3004CC567 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE82214F40C3004CC567 /* TADotView.m */; };
+		08EEEE8F214F40C3004CC567 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE84214F40C3004CC567 /* TAPageControl.m */; };
+		08EEEE90214F40C3004CC567 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE86214F40C3004CC567 /* UIView+SDExtension.m */; };
+		08EEEE98214F7BCF004CC567 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEE97214F7BCF004CC567 /* DetailsViewController.m */; };
+		08EEEEA3214F88BA004CC567 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEA2214F88BA004CC567 /* MainTabBarViewController.m */; };
+		08EEEEB1214F94C5004CC567 /* ForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEEA8214F94C2004CC567 /* ForgetPasswordViewController.xib */; };
+		08EEEEB2214F94C5004CC567 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEEAC214F94C4004CC567 /* RegisterViewController.xib */; };
+		08EEEEB3214F94C5004CC567 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEAD214F94C4004CC567 /* LogInViewController.m */; };
+		08EEEEB4214F94C5004CC567 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEAE214F94C4004CC567 /* RegisterViewController.m */; };
+		08EEEEB5214F94C5004CC567 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEEEAF214F94C4004CC567 /* LogInViewController.xib */; };
+		08EEEEB6214F94C5004CC567 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEB0214F94C5004CC567 /* ForgetPasswordViewController.m */; };
+		08EEEEBB214FA8FC004CC567 /* LiaotianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEBA214FA8FC004CC567 /* LiaotianViewController.m */; };
+		08EEEEBE214FA909004CC567 /* BijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEBD214FA909004CC567 /* BijiViewController.m */; };
+		08EEEEC421508C34004CC567 /* WTFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEC321508C34004CC567 /* WTFKViewController.m */; };
+		08EEEEC721508C41004CC567 /* GYWMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEC621508C41004CC567 /* GYWMViewController.m */; };
+		08FC961C21509BE000D18994 /* LiaoTianDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC961B21509BE000D18994 /* LiaoTianDetailsViewController.m */; };
+		08FC961F21509E9400D18994 /* LiaoTian_A_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC961E21509E9400D18994 /* LiaoTian_A_TableViewCell.m */; };
+		08FC96222150A32700D18994 /* LiaoTianPingLunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC96212150A32700D18994 /* LiaoTianPingLunViewController.m */; };
+		08FC96252150AFA500D18994 /* BijiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC96242150AFA500D18994 /* BijiTableViewCell.m */; };
+		08FC96292150C3E400D18994 /* TomAndJerryEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC96282150C3E400D18994 /* TomAndJerryEpisode.m */; };
+		08FC962C2150C44200D18994 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC962B2150C44200D18994 /* IMViewController.m */; };
+		75AC9B2B214FD0B3005BAAF0 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B29214FD0B3005BAAF0 /* UserViewController.m */; };
+		75AC9B2C214FD0B3005BAAF0 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AC9B2A214FD0B3005BAAF0 /* UserViewController.xib */; };
+		75AC9B30214FD5D7005BAAF0 /* UserInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B2E214FD5D7005BAAF0 /* UserInfomationViewController.m */; };
+		75AC9B31214FD5D7005BAAF0 /* UserInfomationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AC9B2F214FD5D7005BAAF0 /* UserInfomationViewController.xib */; };
+		75AC9B34214FDF10005BAAF0 /* AddBijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B33214FDF10005BAAF0 /* AddBijiViewController.m */; };
+		75AC9B37214FDF28005BAAF0 /* UpdataBijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B36214FDF28005BAAF0 /* UpdataBijiViewController.m */; };
+		75AC9B3A214FE5EC005BAAF0 /* LiaotianAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B39214FE5EC005BAAF0 /* LiaotianAddViewController.m */; };
+		75AC9B3D214FE8A6005BAAF0 /* LiaoTianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC9B3C214FE8A6005BAAF0 /* LiaoTianTableViewCell.m */; };
+		B53B3D31DD9071762E865A61 /* libPods-LeanCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF236EA9B870C92C795CFC4D /* libPods-LeanCloud.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0821C587214A63060050A516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0821C566214A62FA0050A516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0821C56D214A62FA0050A516;
+			remoteInfo = LeanCloud;
+		};
+		0821C592214A63060050A516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0821C566214A62FA0050A516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0821C56D214A62FA0050A516;
+			remoteInfo = LeanCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0821C56E214A62FA0050A516 /* LeanCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0821C571214A62FA0050A516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0821C572214A62FA0050A516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0821C574214A62FA0050A516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0821C575214A62FA0050A516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0821C578214A62FA0050A516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0821C57A214A63060050A516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0821C57D214A63060050A516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0821C57F214A63060050A516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0821C580214A63060050A516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0821C586214A63060050A516 /* LeanCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0821C58A214A63060050A516 /* LeanCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudTests.m; sourceTree = "<group>"; };
+		0821C58C214A63060050A516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0821C591214A63060050A516 /* LeanCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0821C595214A63060050A516 /* LeanCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudUITests.m; sourceTree = "<group>"; };
+		0821C597214A63060050A516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0867819A214B3E4F00301E87 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		0867819B214B3E4F00301E87 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		0867819D214B3E5D00301E87 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		08EEEE70214F3B92004CC567 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		08EEEE71214F3B92004CC567 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		08EEEE72214F3B92004CC567 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		08EEEE76214F40C3004CC567 /* home1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home1.jpeg; sourceTree = "<group>"; };
+		08EEEE77214F40C3004CC567 /* home2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home2.jpeg; sourceTree = "<group>"; };
+		08EEEE78214F40C3004CC567 /* home3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home3.jpeg; sourceTree = "<group>"; };
+		08EEEE79214F40C3004CC567 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		08EEEE7A214F40C3004CC567 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		08EEEE7B214F40C3004CC567 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		08EEEE7C214F40C3004CC567 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		08EEEE7D214F40C3004CC567 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		08EEEE7E214F40C3004CC567 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		08EEEE7F214F40C3004CC567 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		08EEEE80214F40C3004CC567 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		08EEEE81214F40C3004CC567 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		08EEEE82214F40C3004CC567 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		08EEEE83214F40C3004CC567 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		08EEEE84214F40C3004CC567 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		08EEEE85214F40C3004CC567 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		08EEEE86214F40C3004CC567 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		08EEEE96214F7BCE004CC567 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		08EEEE97214F7BCF004CC567 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		08EEEEA1214F88BA004CC567 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		08EEEEA2214F88BA004CC567 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		08EEEEA8214F94C2004CC567 /* ForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		08EEEEA9214F94C3004CC567 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		08EEEEAA214F94C3004CC567 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		08EEEEAB214F94C3004CC567 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		08EEEEAC214F94C4004CC567 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		08EEEEAD214F94C4004CC567 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		08EEEEAE214F94C4004CC567 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		08EEEEAF214F94C4004CC567 /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		08EEEEB0214F94C5004CC567 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		08EEEEB9214FA8FC004CC567 /* LiaotianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaotianViewController.h; sourceTree = "<group>"; };
+		08EEEEBA214FA8FC004CC567 /* LiaotianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaotianViewController.m; sourceTree = "<group>"; };
+		08EEEEBC214FA909004CC567 /* BijiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijiViewController.h; sourceTree = "<group>"; };
+		08EEEEBD214FA909004CC567 /* BijiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijiViewController.m; sourceTree = "<group>"; };
+		08EEEEC221508C34004CC567 /* WTFKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTFKViewController.h; sourceTree = "<group>"; };
+		08EEEEC321508C34004CC567 /* WTFKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTFKViewController.m; sourceTree = "<group>"; };
+		08EEEEC521508C41004CC567 /* GYWMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYWMViewController.h; sourceTree = "<group>"; };
+		08EEEEC621508C41004CC567 /* GYWMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYWMViewController.m; sourceTree = "<group>"; };
+		08FC961A21509BE000D18994 /* LiaoTianDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTianDetailsViewController.h; sourceTree = "<group>"; };
+		08FC961B21509BE000D18994 /* LiaoTianDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoTianDetailsViewController.m; sourceTree = "<group>"; };
+		08FC961D21509E9400D18994 /* LiaoTian_A_TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTian_A_TableViewCell.h; sourceTree = "<group>"; };
+		08FC961E21509E9400D18994 /* LiaoTian_A_TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoTian_A_TableViewCell.m; sourceTree = "<group>"; };
+		08FC96202150A32700D18994 /* LiaoTianPingLunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTianPingLunViewController.h; sourceTree = "<group>"; };
+		08FC96212150A32700D18994 /* LiaoTianPingLunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoTianPingLunViewController.m; sourceTree = "<group>"; };
+		08FC96232150AFA500D18994 /* BijiTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijiTableViewCell.h; sourceTree = "<group>"; };
+		08FC96242150AFA500D18994 /* BijiTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijiTableViewCell.m; sourceTree = "<group>"; };
+		08FC96272150C3E400D18994 /* TomAndJerryEpisode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TomAndJerryEpisode.h; sourceTree = "<group>"; };
+		08FC96282150C3E400D18994 /* TomAndJerryEpisode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomAndJerryEpisode.m; sourceTree = "<group>"; };
+		08FC962A2150C44200D18994 /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
+		08FC962B2150C44200D18994 /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		75AC9B28214FD0B3005BAAF0 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		75AC9B29214FD0B3005BAAF0 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		75AC9B2A214FD0B3005BAAF0 /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		75AC9B2D214FD5D7005BAAF0 /* UserInfomationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfomationViewController.h; sourceTree = "<group>"; };
+		75AC9B2E214FD5D7005BAAF0 /* UserInfomationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfomationViewController.m; sourceTree = "<group>"; };
+		75AC9B2F214FD5D7005BAAF0 /* UserInfomationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfomationViewController.xib; sourceTree = "<group>"; };
+		75AC9B32214FDF10005BAAF0 /* AddBijiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddBijiViewController.h; sourceTree = "<group>"; };
+		75AC9B33214FDF10005BAAF0 /* AddBijiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddBijiViewController.m; sourceTree = "<group>"; };
+		75AC9B35214FDF28005BAAF0 /* UpdataBijiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdataBijiViewController.h; sourceTree = "<group>"; };
+		75AC9B36214FDF28005BAAF0 /* UpdataBijiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdataBijiViewController.m; sourceTree = "<group>"; };
+		75AC9B38214FE5EC005BAAF0 /* LiaotianAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaotianAddViewController.h; sourceTree = "<group>"; };
+		75AC9B39214FE5EC005BAAF0 /* LiaotianAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaotianAddViewController.m; sourceTree = "<group>"; };
+		75AC9B3B214FE8A6005BAAF0 /* LiaoTianTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTianTableViewCell.h; sourceTree = "<group>"; };
+		75AC9B3C214FE8A6005BAAF0 /* LiaoTianTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoTianTableViewCell.m; sourceTree = "<group>"; };
+		8183E721D49CFEC8828B0AAD /* Pods-LeanCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		BF236EA9B870C92C795CFC4D /* libPods-LeanCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanCloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1573079E8F9ECFEEE77AE39 /* Pods-LeanCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0821C56B214A62FA0050A516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53B3D31DD9071762E865A61 /* libPods-LeanCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C583214A63060050A516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C58E214A63060050A516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0821C565214A62FA0050A516 = {
+			isa = PBXGroup;
+			children = (
+				0821C570214A62FA0050A516 /* LeanCloud */,
+				0821C589214A63060050A516 /* LeanCloudTests */,
+				0821C594214A63060050A516 /* LeanCloudUITests */,
+				0821C56F214A62FA0050A516 /* Products */,
+				4F3F2ADE8A27EF1029BB580D /* Pods */,
+				60DB9BFF71351E99EA8BEB01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0821C56F214A62FA0050A516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0821C56E214A62FA0050A516 /* LeanCloud.app */,
+				0821C586214A63060050A516 /* LeanCloudTests.xctest */,
+				0821C591214A63060050A516 /* LeanCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0821C570214A62FA0050A516 /* LeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				08FC96262150C3CD00D18994 /* IM */,
+				08EEEEB8214FA8E4004CC567 /* 003 */,
+				08EEEEB7214FA8DF004CC567 /* 002 */,
+				08EEEEA7214F94B7004CC567 /* login */,
+				08EEEEA6214F948A004CC567 /* tabbar */,
+				08EEEEA5214F9487004CC567 /* 001 */,
+				08EEEEA4214F9482004CC567 /* 004 */,
+				08EEEE75214F40C3004CC567 /* 首页轮播 */,
+				08678199214B3E3800301E87 /* Manager */,
+				0821C571214A62FA0050A516 /* AppDelegate.h */,
+				0821C572214A62FA0050A516 /* AppDelegate.m */,
+				0821C577214A62FA0050A516 /* Main.storyboard */,
+				0821C57A214A63060050A516 /* Assets.xcassets */,
+				0821C57C214A63060050A516 /* LaunchScreen.storyboard */,
+				0821C57F214A63060050A516 /* Info.plist */,
+				0821C580214A63060050A516 /* main.m */,
+			);
+			path = LeanCloud;
+			sourceTree = "<group>";
+		};
+		0821C589214A63060050A516 /* LeanCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				0821C58A214A63060050A516 /* LeanCloudTests.m */,
+				0821C58C214A63060050A516 /* Info.plist */,
+			);
+			path = LeanCloudTests;
+			sourceTree = "<group>";
+		};
+		0821C594214A63060050A516 /* LeanCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0821C595214A63060050A516 /* LeanCloudUITests.m */,
+				0821C597214A63060050A516 /* Info.plist */,
+			);
+			path = LeanCloudUITests;
+			sourceTree = "<group>";
+		};
+		08678199214B3E3800301E87 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0867819A214B3E4F00301E87 /* Manager.h */,
+				0867819B214B3E4F00301E87 /* Manager.m */,
+				0867819D214B3E5D00301E87 /* PrefixHeader.pch */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		08EEEE75214F40C3004CC567 /* 首页轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				08EEEE76214F40C3004CC567 /* home1.jpeg */,
+				08EEEE77214F40C3004CC567 /* home2.jpeg */,
+				08EEEE78214F40C3004CC567 /* home3.jpeg */,
+				08EEEE79214F40C3004CC567 /* SDCollectionViewCell.h */,
+				08EEEE7A214F40C3004CC567 /* SDCollectionViewCell.m */,
+				08EEEE7B214F40C3004CC567 /* SDCycleScrollView.h */,
+				08EEEE7C214F40C3004CC567 /* SDCycleScrollView.m */,
+				08EEEE7D214F40C3004CC567 /* TAAbstractDotView.h */,
+				08EEEE7E214F40C3004CC567 /* TAAbstractDotView.m */,
+				08EEEE7F214F40C3004CC567 /* TAAnimatedDotView.h */,
+				08EEEE80214F40C3004CC567 /* TAAnimatedDotView.m */,
+				08EEEE81214F40C3004CC567 /* TADotView.h */,
+				08EEEE82214F40C3004CC567 /* TADotView.m */,
+				08EEEE83214F40C3004CC567 /* TAPageControl.h */,
+				08EEEE84214F40C3004CC567 /* TAPageControl.m */,
+				08EEEE85214F40C3004CC567 /* UIView+SDExtension.h */,
+				08EEEE86214F40C3004CC567 /* UIView+SDExtension.m */,
+			);
+			path = "首页轮播";
+			sourceTree = "<group>";
+		};
+		08EEEEA4214F9482004CC567 /* 004 */ = {
+			isa = PBXGroup;
+			children = (
+				75AC9B28214FD0B3005BAAF0 /* UserViewController.h */,
+				75AC9B29214FD0B3005BAAF0 /* UserViewController.m */,
+				75AC9B2A214FD0B3005BAAF0 /* UserViewController.xib */,
+				75AC9B2D214FD5D7005BAAF0 /* UserInfomationViewController.h */,
+				75AC9B2E214FD5D7005BAAF0 /* UserInfomationViewController.m */,
+				75AC9B2F214FD5D7005BAAF0 /* UserInfomationViewController.xib */,
+				08EEEEC221508C34004CC567 /* WTFKViewController.h */,
+				08EEEEC321508C34004CC567 /* WTFKViewController.m */,
+				08EEEEC521508C41004CC567 /* GYWMViewController.h */,
+				08EEEEC621508C41004CC567 /* GYWMViewController.m */,
+			);
+			path = 004;
+			sourceTree = "<group>";
+		};
+		08EEEEA5214F9487004CC567 /* 001 */ = {
+			isa = PBXGroup;
+			children = (
+				0821C574214A62FA0050A516 /* ViewController.h */,
+				0821C575214A62FA0050A516 /* ViewController.m */,
+				08EEEE96214F7BCE004CC567 /* DetailsViewController.h */,
+				08EEEE97214F7BCF004CC567 /* DetailsViewController.m */,
+				08EEEE70214F3B92004CC567 /* TableViewCell.h */,
+				08EEEE71214F3B92004CC567 /* TableViewCell.m */,
+				08EEEE72214F3B92004CC567 /* TableViewCell.xib */,
+			);
+			path = 001;
+			sourceTree = "<group>";
+		};
+		08EEEEA6214F948A004CC567 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				08EEEEA1214F88BA004CC567 /* MainTabBarViewController.h */,
+				08EEEEA2214F88BA004CC567 /* MainTabBarViewController.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		08EEEEA7214F94B7004CC567 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				08EEEEAA214F94C3004CC567 /* ForgetPasswordViewController.h */,
+				08EEEEB0214F94C5004CC567 /* ForgetPasswordViewController.m */,
+				08EEEEA8214F94C2004CC567 /* ForgetPasswordViewController.xib */,
+				08EEEEA9214F94C3004CC567 /* LogInViewController.h */,
+				08EEEEAD214F94C4004CC567 /* LogInViewController.m */,
+				08EEEEAF214F94C4004CC567 /* LogInViewController.xib */,
+				08EEEEAB214F94C3004CC567 /* RegisterViewController.h */,
+				08EEEEAE214F94C4004CC567 /* RegisterViewController.m */,
+				08EEEEAC214F94C4004CC567 /* RegisterViewController.xib */,
+			);
+			name = login;
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		08EEEEB7214FA8DF004CC567 /* 002 */ = {
+			isa = PBXGroup;
+			children = (
+				08EEEEB9214FA8FC004CC567 /* LiaotianViewController.h */,
+				08EEEEBA214FA8FC004CC567 /* LiaotianViewController.m */,
+				75AC9B38214FE5EC005BAAF0 /* LiaotianAddViewController.h */,
+				75AC9B39214FE5EC005BAAF0 /* LiaotianAddViewController.m */,
+				75AC9B3B214FE8A6005BAAF0 /* LiaoTianTableViewCell.h */,
+				75AC9B3C214FE8A6005BAAF0 /* LiaoTianTableViewCell.m */,
+				08FC961D21509E9400D18994 /* LiaoTian_A_TableViewCell.h */,
+				08FC961E21509E9400D18994 /* LiaoTian_A_TableViewCell.m */,
+				08FC961A21509BE000D18994 /* LiaoTianDetailsViewController.h */,
+				08FC961B21509BE000D18994 /* LiaoTianDetailsViewController.m */,
+				08FC96202150A32700D18994 /* LiaoTianPingLunViewController.h */,
+				08FC96212150A32700D18994 /* LiaoTianPingLunViewController.m */,
+			);
+			path = 002;
+			sourceTree = "<group>";
+		};
+		08EEEEB8214FA8E4004CC567 /* 003 */ = {
+			isa = PBXGroup;
+			children = (
+				08EEEEBC214FA909004CC567 /* BijiViewController.h */,
+				08EEEEBD214FA909004CC567 /* BijiViewController.m */,
+				75AC9B32214FDF10005BAAF0 /* AddBijiViewController.h */,
+				75AC9B33214FDF10005BAAF0 /* AddBijiViewController.m */,
+				75AC9B35214FDF28005BAAF0 /* UpdataBijiViewController.h */,
+				75AC9B36214FDF28005BAAF0 /* UpdataBijiViewController.m */,
+				08FC96232150AFA500D18994 /* BijiTableViewCell.h */,
+				08FC96242150AFA500D18994 /* BijiTableViewCell.m */,
+			);
+			path = 003;
+			sourceTree = "<group>";
+		};
+		08FC96262150C3CD00D18994 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				08FC96272150C3E400D18994 /* TomAndJerryEpisode.h */,
+				08FC96282150C3E400D18994 /* TomAndJerryEpisode.m */,
+				08FC962A2150C44200D18994 /* IMViewController.h */,
+				08FC962B2150C44200D18994 /* IMViewController.m */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		4F3F2ADE8A27EF1029BB580D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8183E721D49CFEC8828B0AAD /* Pods-LeanCloud.debug.xcconfig */,
+				D1573079E8F9ECFEEE77AE39 /* Pods-LeanCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60DB9BFF71351E99EA8BEB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF236EA9B870C92C795CFC4D /* libPods-LeanCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0821C56D214A62FA0050A516 /* LeanCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0821C59A214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloud" */;
+			buildPhases = (
+				CA677836951A7BCF978E8379 /* [CP] Check Pods Manifest.lock */,
+				0821C56A214A62FA0050A516 /* Sources */,
+				0821C56B214A62FA0050A516 /* Frameworks */,
+				0821C56C214A62FA0050A516 /* Resources */,
+				0BA366FCD3ACCBFF913C55DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloud;
+			productName = LeanCloud;
+			productReference = 0821C56E214A62FA0050A516 /* LeanCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0821C585214A63060050A516 /* LeanCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0821C59D214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloudTests" */;
+			buildPhases = (
+				0821C582214A63060050A516 /* Sources */,
+				0821C583214A63060050A516 /* Frameworks */,
+				0821C584214A63060050A516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0821C588214A63060050A516 /* PBXTargetDependency */,
+			);
+			name = LeanCloudTests;
+			productName = LeanCloudTests;
+			productReference = 0821C586214A63060050A516 /* LeanCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0821C590214A63060050A516 /* LeanCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0821C5A0214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloudUITests" */;
+			buildPhases = (
+				0821C58D214A63060050A516 /* Sources */,
+				0821C58E214A63060050A516 /* Frameworks */,
+				0821C58F214A63060050A516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0821C593214A63060050A516 /* PBXTargetDependency */,
+			);
+			name = LeanCloudUITests;
+			productName = LeanCloudUITests;
+			productReference = 0821C591214A63060050A516 /* LeanCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0821C566214A62FA0050A516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ilovedxracer;
+				TargetAttributes = {
+					0821C56D214A62FA0050A516 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0821C585214A63060050A516 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0821C56D214A62FA0050A516;
+					};
+					0821C590214A63060050A516 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0821C56D214A62FA0050A516;
+					};
+				};
+			};
+			buildConfigurationList = 0821C569214A62FA0050A516 /* Build configuration list for PBXProject "LeanCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0821C565214A62FA0050A516;
+			productRefGroup = 0821C56F214A62FA0050A516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0821C56D214A62FA0050A516 /* LeanCloud */,
+				0821C585214A63060050A516 /* LeanCloudTests */,
+				0821C590214A63060050A516 /* LeanCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0821C56C214A62FA0050A516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AC9B2C214FD0B3005BAAF0 /* UserViewController.xib in Resources */,
+				0821C57E214A63060050A516 /* LaunchScreen.storyboard in Resources */,
+				75AC9B31214FD5D7005BAAF0 /* UserInfomationViewController.xib in Resources */,
+				08EEEEB2214F94C5004CC567 /* RegisterViewController.xib in Resources */,
+				08EEEEB1214F94C5004CC567 /* ForgetPasswordViewController.xib in Resources */,
+				08EEEE74214F3B92004CC567 /* TableViewCell.xib in Resources */,
+				0821C57B214A63060050A516 /* Assets.xcassets in Resources */,
+				08EEEE89214F40C3004CC567 /* home3.jpeg in Resources */,
+				08EEEEB5214F94C5004CC567 /* LogInViewController.xib in Resources */,
+				08EEEE87214F40C3004CC567 /* home1.jpeg in Resources */,
+				0821C579214A62FA0050A516 /* Main.storyboard in Resources */,
+				08EEEE88214F40C3004CC567 /* home2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C584214A63060050A516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C58F214A63060050A516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA366FCD3ACCBFF913C55DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA677836951A7BCF978E8379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeanCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0821C56A214A62FA0050A516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AC9B3A214FE5EC005BAAF0 /* LiaotianAddViewController.m in Sources */,
+				75AC9B2B214FD0B3005BAAF0 /* UserViewController.m in Sources */,
+				08FC961F21509E9400D18994 /* LiaoTian_A_TableViewCell.m in Sources */,
+				75AC9B3D214FE8A6005BAAF0 /* LiaoTianTableViewCell.m in Sources */,
+				0821C576214A62FA0050A516 /* ViewController.m in Sources */,
+				08EEEE8C214F40C3004CC567 /* TAAbstractDotView.m in Sources */,
+				08EEEEBB214FA8FC004CC567 /* LiaotianViewController.m in Sources */,
+				08EEEE8B214F40C3004CC567 /* SDCycleScrollView.m in Sources */,
+				08EEEEBE214FA909004CC567 /* BijiViewController.m in Sources */,
+				08EEEEB6214F94C5004CC567 /* ForgetPasswordViewController.m in Sources */,
+				0821C581214A63060050A516 /* main.m in Sources */,
+				75AC9B37214FDF28005BAAF0 /* UpdataBijiViewController.m in Sources */,
+				08EEEEA3214F88BA004CC567 /* MainTabBarViewController.m in Sources */,
+				08FC962C2150C44200D18994 /* IMViewController.m in Sources */,
+				08EEEE98214F7BCF004CC567 /* DetailsViewController.m in Sources */,
+				08FC96252150AFA500D18994 /* BijiTableViewCell.m in Sources */,
+				08EEEEC721508C41004CC567 /* GYWMViewController.m in Sources */,
+				08FC961C21509BE000D18994 /* LiaoTianDetailsViewController.m in Sources */,
+				08EEEEB3214F94C5004CC567 /* LogInViewController.m in Sources */,
+				0821C573214A62FA0050A516 /* AppDelegate.m in Sources */,
+				08EEEE73214F3B92004CC567 /* TableViewCell.m in Sources */,
+				08EEEE8F214F40C3004CC567 /* TAPageControl.m in Sources */,
+				08EEEEC421508C34004CC567 /* WTFKViewController.m in Sources */,
+				75AC9B34214FDF10005BAAF0 /* AddBijiViewController.m in Sources */,
+				08EEEE90214F40C3004CC567 /* UIView+SDExtension.m in Sources */,
+				08EEEEB4214F94C5004CC567 /* RegisterViewController.m in Sources */,
+				0867819C214B3E4F00301E87 /* Manager.m in Sources */,
+				08EEEE8A214F40C3004CC567 /* SDCollectionViewCell.m in Sources */,
+				08FC96222150A32700D18994 /* LiaoTianPingLunViewController.m in Sources */,
+				08EEEE8D214F40C3004CC567 /* TAAnimatedDotView.m in Sources */,
+				08EEEE8E214F40C3004CC567 /* TADotView.m in Sources */,
+				75AC9B30214FD5D7005BAAF0 /* UserInfomationViewController.m in Sources */,
+				08FC96292150C3E400D18994 /* TomAndJerryEpisode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C582214A63060050A516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0821C58B214A63060050A516 /* LeanCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0821C58D214A63060050A516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0821C596214A63060050A516 /* LeanCloudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0821C588214A63060050A516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0821C56D214A62FA0050A516 /* LeanCloud */;
+			targetProxy = 0821C587214A63060050A516 /* PBXContainerItemProxy */;
+		};
+		0821C593214A63060050A516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0821C56D214A62FA0050A516 /* LeanCloud */;
+			targetProxy = 0821C592214A63060050A516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0821C577214A62FA0050A516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0821C578214A62FA0050A516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0821C57C214A63060050A516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0821C57D214A63060050A516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0821C598214A63060050A516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0821C599214A63060050A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0821C59B214A63060050A516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8183E721D49CFEC8828B0AAD /* Pods-LeanCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N95V3EZZEM;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/lvshutao/Desktop/未命名文件夹/LeanCloud/LeanCloud/Manager/PrefixHeader.pch";
+				INFOPLIST_FILE = LeanCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0821C59C214A63060050A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1573079E8F9ECFEEE77AE39 /* Pods-LeanCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N95V3EZZEM;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/lvshutao/Desktop/未命名文件夹/LeanCloud/LeanCloud/Manager/PrefixHeader.pch";
+				INFOPLIST_FILE = LeanCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0821C59E214A63060050A516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloud.app/LeanCloud";
+			};
+			name = Debug;
+		};
+		0821C59F214A63060050A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloud.app/LeanCloud";
+			};
+			name = Release;
+		};
+		0821C5A1214A63060050A516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeanCloud;
+			};
+			name = Debug;
+		};
+		0821C5A2214A63060050A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.LeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeanCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0821C569214A62FA0050A516 /* Build configuration list for PBXProject "LeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0821C598214A63060050A516 /* Debug */,
+				0821C599214A63060050A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0821C59A214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0821C59B214A63060050A516 /* Debug */,
+				0821C59C214A63060050A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0821C59D214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0821C59E214A63060050A516 /* Debug */,
+				0821C59F214A63060050A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0821C5A0214A63060050A516 /* Build configuration list for PBXNativeTarget "LeanCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0821C5A1214A63060050A516 /* Debug */,
+				0821C5A2214A63060050A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0821C566214A62FA0050A516 /* Project object */;
+}
