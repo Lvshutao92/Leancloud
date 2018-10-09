@@ -2,6 +2,7 @@
 
 #import "DetailsViewController.h"
 #import "TableViewCell.h"
+#import "ThreeCengViewController.h"
 @interface DetailsViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)UITableView *tableview;
@@ -23,7 +24,7 @@
     _HUD.label.text = @"加载中,请稍等...";
     _HUD.mode = MBProgressHUDModeText;
     
-    self.tableview = [[UITableView alloc]initWithFrame:self.view.frame];
+    self.tableview = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     self.tableview.dataSource = self;
     self.tableview.delegate = self;
     [self.tableview registerNib:[UINib nibWithNibName:@"TableViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
@@ -31,6 +32,9 @@
     
     UIView *v = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
     self.tableview.tableFooterView = v;
+    
+    
+    
     
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn1 setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
@@ -78,7 +82,10 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    AVObject *item = [self.dataArray objectAtIndex:indexPath.row];
+    ThreeCengViewController *three = [[ThreeCengViewController alloc]init];
+    three.idstr = [NSString stringWithFormat:@"ThreeCeng_%@",[item objectForKey:@"objectId"]];
+    [self presentViewController:three animated:YES completion:nil];
 }
 
 

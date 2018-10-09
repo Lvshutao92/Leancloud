@@ -12,7 +12,9 @@
 
 
 @interface AppDelegate ()
+
 @property(nonatomic,strong)MainTabBarViewController *mainVC;
+
 @end
 
 @implementation AppDelegate

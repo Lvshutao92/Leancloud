@@ -40,6 +40,8 @@
 		08EEEEBE214FA909004CC567 /* BijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEBD214FA909004CC567 /* BijiViewController.m */; };
 		08EEEEC421508C34004CC567 /* WTFKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEC321508C34004CC567 /* WTFKViewController.m */; };
 		08EEEEC721508C41004CC567 /* GYWMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EEEEC621508C41004CC567 /* GYWMViewController.m */; };
+		08F93FF6216B0162001387E2 /* ThreeCengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F93FF5216B0162001387E2 /* ThreeCengViewController.m */; };
+		08F93FF9216B03B8001387E2 /* LiuYanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F93FF8216B03B8001387E2 /* LiuYanViewController.m */; };
 		08FC961C21509BE000D18994 /* LiaoTianDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC961B21509BE000D18994 /* LiaoTianDetailsViewController.m */; };
 		08FC961F21509E9400D18994 /* LiaoTian_A_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC961E21509E9400D18994 /* LiaoTian_A_TableViewCell.m */; };
 		08FC96222150A32700D18994 /* LiaoTianPingLunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC96212150A32700D18994 /* LiaoTianPingLunViewController.m */; };
@@ -135,6 +137,10 @@
 		08EEEEC321508C34004CC567 /* WTFKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTFKViewController.m; sourceTree = "<group>"; };
 		08EEEEC521508C41004CC567 /* GYWMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYWMViewController.h; sourceTree = "<group>"; };
 		08EEEEC621508C41004CC567 /* GYWMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYWMViewController.m; sourceTree = "<group>"; };
+		08F93FF4216B0162001387E2 /* ThreeCengViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeCengViewController.h; sourceTree = "<group>"; };
+		08F93FF5216B0162001387E2 /* ThreeCengViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeCengViewController.m; sourceTree = "<group>"; };
+		08F93FF7216B03B8001387E2 /* LiuYanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiuYanViewController.h; sourceTree = "<group>"; };
+		08F93FF8216B03B8001387E2 /* LiuYanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiuYanViewController.m; sourceTree = "<group>"; };
 		08FC961A21509BE000D18994 /* LiaoTianDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTianDetailsViewController.h; sourceTree = "<group>"; };
 		08FC961B21509BE000D18994 /* LiaoTianDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoTianDetailsViewController.m; sourceTree = "<group>"; };
 		08FC961D21509E9400D18994 /* LiaoTian_A_TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiaoTian_A_TableViewCell.h; sourceTree = "<group>"; };
@@ -313,6 +319,10 @@
 				0821C575214A62FA0050A516 /* ViewController.m */,
 				08EEEE96214F7BCE004CC567 /* DetailsViewController.h */,
 				08EEEE97214F7BCF004CC567 /* DetailsViewController.m */,
+				08F93FF4216B0162001387E2 /* ThreeCengViewController.h */,
+				08F93FF5216B0162001387E2 /* ThreeCengViewController.m */,
+				08F93FF7216B03B8001387E2 /* LiuYanViewController.h */,
+				08F93FF8216B03B8001387E2 /* LiuYanViewController.m */,
 				08EEEE70214F3B92004CC567 /* TableViewCell.h */,
 				08EEEE71214F3B92004CC567 /* TableViewCell.m */,
 				08EEEE72214F3B92004CC567 /* TableViewCell.xib */,
@@ -603,6 +613,7 @@
 				08EEEEBE214FA909004CC567 /* BijiViewController.m in Sources */,
 				08EEEEB6214F94C5004CC567 /* ForgetPasswordViewController.m in Sources */,
 				0821C581214A63060050A516 /* main.m in Sources */,
+				08F93FF9216B03B8001387E2 /* LiuYanViewController.m in Sources */,
 				75AC9B37214FDF28005BAAF0 /* UpdataBijiViewController.m in Sources */,
 				08EEEEA3214F88BA004CC567 /* MainTabBarViewController.m in Sources */,
 				08FC962C2150C44200D18994 /* IMViewController.m in Sources */,
@@ -620,6 +631,7 @@
 				08EEEEB4214F94C5004CC567 /* RegisterViewController.m in Sources */,
 				0867819C214B3E4F00301E87 /* Manager.m in Sources */,
 				08EEEE8A214F40C3004CC567 /* SDCollectionViewCell.m in Sources */,
+				08F93FF6216B0162001387E2 /* ThreeCengViewController.m in Sources */,
 				08FC96222150A32700D18994 /* LiaoTianPingLunViewController.m in Sources */,
 				08EEEE8D214F40C3004CC567 /* TAAnimatedDotView.m in Sources */,
 				08EEEE8E214F40C3004CC567 /* TADotView.m in Sources */,
@@ -795,9 +807,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N95V3EZZEM;
+				DEVELOPMENT_TEAM = BDWWJR76RE;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/lvshutao/Documents/LeanCloud/LeanCloud/Manager/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/ilovedxracer/Desktop/未命名文件夹/Leancloud/LeanCloud/Manager/PrefixHeader.pch";
 				INFOPLIST_FILE = LeanCloud/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -816,9 +828,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N95V3EZZEM;
+				DEVELOPMENT_TEAM = BDWWJR76RE;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/lvshutao/Documents/LeanCloud/LeanCloud/Manager/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/ilovedxracer/Desktop/未命名文件夹/Leancloud/LeanCloud/Manager/PrefixHeader.pch";
 				INFOPLIST_FILE = LeanCloud/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

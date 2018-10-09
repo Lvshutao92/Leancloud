@@ -22,7 +22,7 @@
     self.textview.font = FONT(20);
     self.textview.delegate = self;
     self.textview.editable = NO;
-    self.textview.text = @"中国地理大全\n\n一起讨论学地理\n\n进一步了解中国\n\n记录心得\n\n一起约玩\n\n交朋友\n\n在这里\n\n你会变得博学\n\n宽阔你的视野\n\n在这里\n\n丰富你的人生";
+    self.textview.text = @"中国\n\n一起讨论了解中国\n\n在这里\n\n记录心得\n\n在这里\n\n一起约玩\n\n在这里\n\n交朋友\n\n在这里\n\n你会变得博学\n\n在这里\n\n宽阔你的视野\n\n在这里\n\n丰富你的人生\n\n一切尽在了解中国";
     [self.view addSubview:self.textview];
     
     
